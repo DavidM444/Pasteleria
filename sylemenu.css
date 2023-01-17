@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: url('./assets/f1.webp');
+    height: 200px;
+    width: 100%;
+}
+
+header img{
+    height: 210px;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+
+header h1 {  
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 80px;
+    color: #494306; 
+}
+
+header nav {
+    position: absolute;
+    left: 83%;
+    top: 30px;
+}
+
+header button{
+    background-color: #ca9503;
+    font-size: 34px;
+    border-width: 6px;
+    border-color: white;
+    margin-right: 20px;
+    color: #ffffff; 
+}
+
+header button:hover {
+    background-color: rgb(255, 248, 248);
+    color: #000000;
+}
+
+
+.center {
+    background-color: #ca9503;
+
+}
+
+.center img {
+    width: 250px;
+    height: 250px;
+    border-radius: 23px;
+}
+
+.center .menu {
+    background-image: url('./assets/f3.jpg');
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.center #f1 {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 20px;
+    right: -20px;
+    border-color: chocolate;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 32px;
+    align-self: center;
+}
+
+.center #f1 h2 {
+    text-align: center;
+}
+
+.center #f1 h3{
+    text-align: center;
+}
+
+/*estilos para estiquetas*/
+
+
+.etiqueta {
+    background-color: #ca9503;
+}
+
+.etiqueta img {
+    width: 250px;
+    height: 250px;
+    border-radius: 23px;
+}
+
+.etiqueta .menu {
+    background-image: url('./assets/f3.jpg');
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.etiqueta #f1 {
+    height: 350px;
+    width: 250px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 20px;
+    right: -20px;
+    border-color: chocolate;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 32px;
+}
+
+.etiqueta #f1 h2 {
+    text-align: center;
+}
+
+.etiqueta #f1 h3 {
+    text-align: center;
+}
+
+.orden {
+    position: relative;
+    background-color: #fffefb;
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    background-image: url('./assets/f5.jpg');
+    position: static;
+    border-radius: 20px;
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0  auto;
+}
+
+.form #f1 {
+    position: relative;
+    left: 50px;
+    font-size: 25px;
+    color: #ffffff;
+}
+.form #f2 input {
+    font-size: 18px;
+}
+   
+.form #f1 h2 {
+    color: #5e2c06;
+    text-shadow: 2px 2px 4px #d5b112;
+}
+
+.form #f2 {
+    position: relative;
+    left: 100px;
+    font-size: 25px;
+    color: #ffffff;
+    
+}
+.form h2 {
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.form h1 {
+    color: darkred;
+    position:relative;
+    left: 300px;
+    font-size: 35px;
+    width: 600px;
+    text-shadow: 2px 2px 4px #d5b112;
+}
+
+.form button {
+    font-size: 30px;
+    left: 110px;
+    position: relative;
+    background-color: rgb(249, 5, 5);
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+footer {
+    position:relative;
+    top: 50px;
+    background-color: #ca9503;
+}
+
+footer h1 {
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    background-color: rgb(253, 253, 253);
+    font-size: 25px;
+    top: 30px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #d5b112;
+}
